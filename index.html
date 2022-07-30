@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./scss/carousel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header__nav container">
+            <ul class="header__list1">
+                <li><a class="header__link1" href="">SHOP</a></li>
+                <li><a class="header__link1" href="">Explore</a></li>
+            </ul>
+            <div>
+                <img src="./img/header__logo.png" alt="">
+            </div>
+
+            <ul class="header__list1">
+                <li><a class="header__link1" href="">My Cart</a></li>
+            </ul>
+            <div class="burger__box">
+                <i class="burger bi bi-list " style="font-size:45px;"></i>
+                <i class="close bi bi-x-lg" style="font-size:45px;"></i>
+            </div>
+        </div>
+    </header>
+    <!-- media uchun navbar -->
+    <div class="navbar-Box active">
+        <ul class="navbar-box__list1">
+            <li><a class="navbar-box__link1" href="">SHOP</a></li>
+            <li><a class="navbar-box__link1" href="">Explore</a></li>
+            <li><a class="navbar-box__link1" href="">My Cart</a></li>
+        </ul>
+    </div>
+    <main class="main">
+        <section class="main__bg">
+            <div class="main__bg-content container">
+                <h1>The Desk Shelf System</h1>
+                <p>Available in Walnut or Maple</p>
+                <a href="" class="learn-more_link">LEARN MORE</a>
+            </div>
+        </section>
+        <section class="container section__design" id="design">
+            <h1>Design Inspires</h1>
+            <p>Build your dream workspace, so you can get your best work done.</p>
+            <a href="">GET STARTED</a>
+        </section>
+        <section class="container desk_laptop-box">
+            <div class="desktop__box">
+                <img src="./img/deks__top.png" alt="" class="desktop__img">
+                <h3 class="desktop__box-title">Desk Pads</h3>
+                <a href="" class="desktop__box-link">LEARN MORE</a>
+            </div>
+            <div class="desktop__box">
+                <img src="./img/deks__top2.png" alt="" class="desktop__img">
+                <h3 class="desktop__box-title">Laptop Stands</h3>
+                <a href="" class="desktop__box-link">LEARN MORE</a>
+            </div>
+        </section>
+        <section class="container feature-products">
+            <h2 class="feature-products-title">Featured Products</h2>
+            <p class="feature-products-text">See What’s Trending Right Now</p>
+            <div class="carousel_box">
+                <carousel>
+                    <input class="redio-box" type="radio" id="page1cb" checked name="pages" />
+                    <input class="redio-box" type="radio" id="page2cb" name="pages" />
+                    <input class="redio-box" type="radio" id="page3cb" name="pages" />
+                    <input class="redio-box" type="radio" id="page4cb" name="pages" />
+                    <page id="page1">
+                        <div>
+                            <img src="./img/carousel-img1.png" alt="">
+                            <h4 class="carousel-title">Walnut MagSafe Stand</h4>
+                            <p class="carousel-text">$120</p>
+                        </div>
+                    </page>
+                    <page id="page2">
+                        <div>
+                            <img src="./img/carousel-img2.png" alt="">
+                            <h4 class="carousel-title">Walnut Laptop Riser</h4>
+                            <p class="carousel-text">$150</p>
+                        </div>
+                    </page>
+                    <page id="page3">
+                        <div>
+                            <img src="./img/carousel-img3.png" alt="">
+                            <h4 class="carousel-title">Walnut iPad Stand</h4>
+                            <p class="carousel-text">$80 </p>
+                        </div>
+                    </page>
+                    <page id="page4">
+                        <div>
+                            <img src="./img/carousel-img4.png" alt="">
+                            <h4 class="carousel-title">Walnut Monitor Stand</h4>
+                            <p class="carousel-text">$100</p>
+                        </div>
+                    </page>
+                    <carousel>
+            </div>
+        </section>
+        <section class="home__office">
+            <div class="container home__office-content">
+                <h1>Home Office Inspiration</h1>
+                <p>Working from home can be a challenge—see some creative solutions to get it just right.</p>
+                <a href="" class="learn-more_link">LEARN MORE</a>
+            </div>
+        </section>
+        <section class="made container  ">
+            <div class=" made_box">
+                <h1>Made The Hard Way</h1>
+                <p>Our signature craftsmanship has been honed over a decade of manufacturing innovation here in
+                    Portland, Oregon. We combine the skills of our small in-house team with the collective strength of
+                    collaborators throughout the US to deliver quality products worth investing in.</p>
+                <img src="./img/made-img.png" alt="">
+                <h1>Make Work Meaningful</h1>
+                <p>We're here because we believe that your work deserves the best. A team that loves working together is
+                    the magic that makes it all happen.</p>
+            </div>
+
+            <div class="img__boxs">
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img1.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img2.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img3.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img4.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img5.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img6.png" alt="">
+                </div>
+            </div>
+            <div class="img__boxs">
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img8.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img9.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img10.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img11.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img12.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img13.png" alt="">
+                </div>
+            </div>
+            <div class="img__boxs">
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img14.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img15.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img16.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img17.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img18.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img19.png" alt="">
+                </div>
+            </div>
+            <div class="img__boxs">
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img20.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img21.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img22.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img23.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img15.png" alt="">
+                </div>
+                <div class="img_boxs-item">
+                    <img src="./img/collection-person-img16.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="design-inspires container">
+            <div class="our-stroy-box">
+                <h1 class="design-title">We Hope You'll Join Us</h1>
+                <a href="" class="design__more-link">READ MORE ABOUT OUR STORY</a>
+            </div>
+            <div class="design-inspires_bg">
+                <div>
+                    <img src="./img/design-img.png" alt="">
+                    <h1>Design Inspires</h1>
+                    <p>Build your dream workspace, so you can get your best work done.</p>
+                </div>
+            </div>
+        </section>     
+    </main>
+    <script src="./Js/index.js"></script>
+</body>
+
+</html>
